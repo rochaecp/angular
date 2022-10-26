@@ -3,6 +3,7 @@
 ## Úteis
 
 - [Template](estudos/template.md)
+- [CLI](estudos/cli.md)
 
 ## Introdução
 
