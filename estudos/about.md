@@ -6,7 +6,7 @@
 
 ## Temas relacionados
 
-- ***SPA (Single Page Application)***: aplicação onde navegamos e interagimos com a tela sem a página ser recarregada. Ex.: Gmail
-- ***REST***:
-- ***TypeScript***:
+- **SPA (Single Page Application)**: aplicação onde navegamos e interagimos com a tela sem a página ser recarregada. Ex.: Gmail
+- **REST**:
+- **TypeScript**:
 
