@@ -41,7 +41,7 @@
     - O webpack compacta tudo
     - Gera os chunks (pedaços de código da aplicação)
     ~~~bash
-    ng serve
+    ng serve # ou ng s
     ~~~
 
 - Rodar localmente de modo semelhante a como seria em produção    
