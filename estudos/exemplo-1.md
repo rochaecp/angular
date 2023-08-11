@@ -5,7 +5,9 @@
     ng new --minimal -g MeuProjeto # minima e sem git (-g)
         # não adicionar roteamento (para treinar)
         # usar o css
+    ng serve # testar
     ~~~
+    - Parar a aplicação: Ctrl + C
 1. Inserir o css do Bootstrap no arquivo index.html
 1. Criar os componentes
     ~~~bash

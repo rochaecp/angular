@@ -67,17 +67,6 @@
 - Um componente pode consumir uma API Rest de através de serviços
 - Um serviço é uma classe no Angular responsável por trabalhar com o mundo externo
 
-# Componentes
-
-- Cada componente é formado por: 
-    - Um template (é um arquivo HTML, parte visual)
-    - Uma classe (com propriedades e métodos, code behind) 
-    - Metadata (dados que dizem como a classe se comporta e com quais arquivos está ligada)
-- Código de um componente
-    - Dependências
-    - Metadados
-    - Definição da classe
-    
 # Linguagens Suportadas
 
 - Javascript 
@@ -134,23 +123,6 @@
     ~~~bash
     npm install -g @angular/cli
     ~~~
-
-# Criar a primeira aplicação
-
-- Criar um novo projeto:
-
-    ~~~bash
-    ng new MeuApp
-    ~~~
-
-- Entrar no diretório da aplicação e executar a aplicação 
-
-    ~~~bash
-    cd MeuApp
-    ng serve    
-    ~~~
-
-- Parar a aplicação: Ctrl + C
 
 # Anatomia de um app angular
 
@@ -219,90 +191,6 @@
     - Diz o que a classe é.
     - A classe pode ser um componente, uma diretiva, um módulo, um serviço injetável, um pipe
 
-# Angular Components
-
-- Um componente é formado por
-    - um arquivo .ts - "componente" e "metadado" ou "decorators"
-    - um arquivo .html - "template"
-    - um arquivo .css - "estilo"
-    - um arquivo .spec.ts - "especificação de testes"
-
-- Arquivo app.component.ts
-    ~~~javascript
-    import { Component } from '@angular/core'; // import da diretiva que diz que é um componente
-
-    @Component({ // @Component indica que classe é um componente
-        selector: 'app-root', // nome para invocar o componente no html
-        templateUrl: './app.component.html', // caminho do template
-        styleUrls: ['./app.component.css'] // caminho do css
-    })
-    export class AppComponent { // parte declarativa da classe
-        title = 'MeuApp';
-    }
-    ~~~
-
-- Criar um componente via Angular CLI
-    - Pode deletar a spec.ts e o .css (remover respectivos caminhos do .ts)
-    - Os nomes de arquivo terminarão automaticamente com .component.\<extensão\>
-    - Implementa a interface OnInit logo, implementar método ngOnInit (método que sempre é chamado após o construtor)
-    - Ao criarmos um componente ele é automaticamente registrado no app.module.ts
-    ~~~bash
-    ng generate component pasta/NomeComponente # ou ainda ng g c pasta/NomeComponente
-    ~~~  
-
-# Decorators
-
-- Define o comportamento de uma classe do Angular que tem uma responsabilidade específica.
-- Úteis para criar classes
-- Alguns Decorators
-    - Component
-    - Injectable
-        - define um serviço
-    - NgModule
-        - para criar um módulo
-    - Pipe
-        - para criar tratamento de como formatar informações na tela
-    - Directive
-    - Input 
-    - Output
-    - ViewChildren
-        - para reutilizar componentes visuais
-- Verificar o que podemos criar
-    ~~~bash
-    ng g --help
-    ~~~        
-
-# Modules
-
-- Um módulo pode representar uma funcionalidde
-- Existe apenas um módulo principal: app.module.ts
-- Criar um módulo
-    ~~~bash
-    ng g module Funcionalidade
-    ~~~
-- Um módulo é um arquivo nomeModulo.module.ts
-- Todos módulos criados precisam importar o CommonModule
-- Cada módulo possui
-    - declarações
-        - colocamos os componentes
-    - imports
-        - colocamos os módulos
-    - providers
-        - colocamos os serviços
-    - bootstrap
-        - só existe no app.module.ts
-        - diz que o AppComponent chamará todo o restante da aplicação  
-            - No arquivo main.ts isso é configurado
-- app-routing.module.ts
-    - Módulo que cuida das rotas
-        - "forRoot" = "para o módulo principal"
-- Criar um serviço
-    ~~~bash
-    ng g service Servico
-    ~~~       
-- Um serviço é um arquivo nomeServico.service.ts
-    - Ele será um Injectable
-    - Podemos colocar o serviço criado no providers do app.module.ts
 
 
 
