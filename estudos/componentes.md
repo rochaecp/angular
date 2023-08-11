@@ -36,6 +36,7 @@
     - Implementa a interface OnInit logo, implementar método ngOnInit (método que sempre é chamado após o construtor)
     - Ao criarmos um componente ele é automaticamente registrado no app.module.ts
     ~~~bash
-    ng generate component pasta/NomeComponente # ou ainda ng g c pasta/NomeComponente
+    ng generate component pasta/NomeComponente 
+        # ou ainda ng g c pasta/NomeComponente
     ~~~      
 

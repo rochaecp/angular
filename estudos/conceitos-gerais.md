@@ -150,6 +150,7 @@
     - Estilos globais
 - src/app/app.module.ts
     - Módulo Principal ou classe de módulo
+    - Carrega todas as referências
 - src/app/app.components.ts
     - Componente
     - Possui uma url de template html (que será exibida dentro do index.html) e um css próprio

@@ -1,10 +1,14 @@
 # Serviços
 
-- São arquivos nomeServico.service.ts
+- Um serviço é um arquivo nomeServico.service.ts
+- Ele será um Injectable
+- Podemos colocar o serviço criado no providers do app.module.ts
 
-- Criar
+- - - 
+
+- Criar um serviço
     ~~~bash
-    ng g service NomeServico
-    ~~~
+    ng g service Servico
+    ~~~       
 
     
