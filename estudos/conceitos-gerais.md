@@ -8,7 +8,7 @@
 - Site Oficial: [https://angular.io/](https://angular.io/)
 - Documentação: [https://angular.io/docs](https://angular.io/docs)
 
-#### Versões do Angular
+## Versões do Angular
 
 - Angular 2 (2015)
 - Incompatível com AngularJS (versão 1.x)
@@ -25,7 +25,7 @@
 - Cada versão é compatível com a sua versão anterior
 - A migração de uma versão 4 para uma 5 não gera break changes, porém migrar de uma versão 4 para uma 6 pode gerar break changes
 
-#### Versionamento (a partir da versão 4)
+## Versionamento (a partir da versão 4)
 
 - Semantic Versioning (versionamento semântico) - [https://semver.org/](https://semver.org/)
 - Versões são baseadas em 3 números, ex.: 3.2.1   
@@ -41,14 +41,14 @@
 - Beta: ex: 10.0.0-beta
 - Release Candidate: ex: 10.1.0-rc
 
-#### Aplicação Server-side
+## Aplicação Server-side
 
 - Client faz um request (requisição) inicial
 - Server processa o request e retorna um html completo (com js e css)
 - Client exibe a informação no browser
 - Maior tráfego na rede, recarrega a página
 
-#### Aplicação SPA (Single Page Application)
+## Aplicação SPA (Single Page Application)
 
 - Requisição inicial
 - Client faz um request (requisição) inicial
@@ -60,14 +60,14 @@
 - A idéia é conter apenas uma página    
 - Aplicação onde navegamos e interagimos com a tela sem a página ser recarregada. Ex.: Gmail
 
-#### Anatomia de um App Angular
+## Anatomia de um App Angular
 
 - Uma aplicação pode ser dividida em um módulo para cada feature
 - Um módulo é composto por uma coleção de componentes e por serviços
 - Um componente pode consumir uma API Rest de através de serviços
 - Um serviço é uma classe no Angular responsável por trabalhar com o mundo externo
 
-#### Linguagens Suportadas
+## Linguagens Suportadas
 
 - Javascript 
 - Compatível com a versão ES 5 (roda em todos browser)
@@ -85,13 +85,13 @@
 - Não é JS
 - É uma linguagem do Google
 
-#### Setup (Requisitos necessários)
+## Setup (Requisitos necessários)
 
 - nodeJS
 - npm
 - Angular CLI
 
-#### Instalar o nodeJs
+## Instalar o nodeJs
 
 - Acessar o site: <https://nodejs.org>
 - Instalar a última versão LTS (caminho mais seguro)
@@ -101,7 +101,7 @@
 node --version # ou node -v
 ~~~
 
-#### Instalar ou atualizar o npm (Node Package Manager)
+## Instalar ou atualizar o npm (Node Package Manager)
 
 - Acessar o site: <https://npmjs.com>
 - Descobrir a versão instalada
@@ -110,19 +110,19 @@ node --version # ou node -v
 npm --version
 ~~~
 
-#### Atualizar para a mais nova versão
+## Atualizar para a mais nova versão
 
 ~~~bash
 npm install npm@latest -g # -g == global
 ~~~
 
-#### Instalar o Angular CLI (Command Line Interface)
+## Instalar o Angular CLI (Command Line Interface)
 
 ~~~bash
 npm install -g @angular/cli
 ~~~
 
-#### Anatomia de um app angular
+## Anatomia de um app angular
 
 - node_modules
 - pacotes necessários para rodar a aplicação
@@ -170,7 +170,7 @@ npm install -g @angular/cli
 - environments/environments.ts
 - arquivo para ambiente de desenvolvimento
 
-#### Algumas extensões
+## Algumas extensões
 
 - Angular Console
 - forma visual para comandos
@@ -183,7 +183,7 @@ npm install -g @angular/cli
 - npm for VS Code
 - npm intellisense
 
-#### API List
+## API List
 
 - [API List: https://angular.io/api](https://angular.io/api)
 - Decorator

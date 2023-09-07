@@ -1,6 +1,6 @@
 # Exemplo de criação de aplicação
 
-#### Criar a aplicação
+## Criar a aplicação
 
 ~~~bash
 ng new --help
@@ -14,7 +14,7 @@ ng serve
     # Parar a aplicação: Ctrl + C
 ~~~
 
-#### Inserir o css do Bootstrap e do font-awesome no arquivo *index.html*
+## Inserir o css do Bootstrap e do font-awesome no arquivo *index.html*
 
 - Outra opção de framework front-end seria o Angular Material.
 - Existe também o componente ngx-bootstrap.
@@ -25,7 +25,7 @@ ng serve
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
 ~~~
 
-#### Criar os componentes
+## Criar os componentes
 
 - No arquivo *app.component.ts*
     - Criar o arquivo *app.component.html*
@@ -64,7 +64,7 @@ ng g c navegacao/menu
 <app-rodape></app-rodape>
 ~~~
 
-#### Criar rotas
+## Criar rotas
 
 - Na pasta app: criar o arquivo *app.routes.ts* (arquivo de configuração) 
 
@@ -131,13 +131,13 @@ providers: [
 
 ## Data Bindings - exemplo
 
-#### Criar o componente
+### Criar o componente
 
 ~~~bash
 ng g c exemplos/DataBinding
 ~~~
 
-#### Adicionar o path para o componente data-binding criado
+### Adicionar o path para o componente data-binding criado
 
 - No arquivo *app.routes.ts*    
 
@@ -146,7 +146,7 @@ import { DataBindingComponent } from './exemplos/data-binding/data-binding.compo
 { path: 'exemplo-data-binding', component: DataBindingComponent}
 ~~~
 
-#### Adicionar o item de menu Exemplos
+### Adicionar o item de menu Exemplos
 
 - No arquivo *menu.component.html*    
 

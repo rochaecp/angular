@@ -1,6 +1,6 @@
 # Angular CLI (Command Line Interface)
 
-#### Obter informações sobre comandos
+## Obter informações sobre comandos
 
 - Documentação oficial: <https://angular.io/cli>
 
@@ -11,7 +11,7 @@ ng g --help # Verificar o que podemos criar
 ng version # versao do angular, do cli, ...
 ~~~
 
-#### Criar uma nova aplicação
+## Criar uma nova aplicação
 
 - Por default o prefixo (--prefix) da aplicação é app
 
@@ -19,31 +19,31 @@ ng version # versao do angular, do cli, ...
 ng new NomeApp
 ~~~
 
-#### Criar uma aplicação de tamanho mínimo e sem git
+## Criar uma aplicação de tamanho mínimo e sem git
 
 ~~~bash
 ng new --minimal -g NomeProjeto # minima e sem git (-g)
 ~~~    
 
-#### Criar uma parte de uma aplicação (componente, rota, serviço, etc)
+## Criar uma parte de uma aplicação (componente, rota, serviço, etc)
 
 ~~~bash
 ng generate --help # ou n g --help para ver opções
 ~~~
 
-#### Criar um módulo
+## Criar um módulo
 
 ~~~bash
 ng g module NomeModulo 
 ~~~    
 
-#### Criar um serviço
+## Criar um serviço
 
 ~~~bash
 ng g service NomeServico
 ~~~            
 
-#### Rodar localmente a aplicação
+## Rodar localmente a aplicação
 
 - "Builda" e serve seu aplicativo
 - "re-Builda" caso haja alterações de arquivo
@@ -54,7 +54,7 @@ ng g service NomeServico
 ng serve # ou ng s
 ~~~
 
-#### Rodar localmente de modo semelhante a como seria em produção  
+## Rodar localmente de modo semelhante a como seria em produção  
 
 - Apenas para desenvolvimento
 
@@ -62,7 +62,7 @@ ng serve # ou ng s
 ng serve --prod
 ~~~
 
-#### Compilar a aplicação (sem rodar) no diretório dist (distribution)
+## Compilar a aplicação (sem rodar) no diretório dist (distribution)
 
 - No diretório dist gera os arquivos que iriam par ao servidor
 - TODO: comando para buildar de modo otimizado para prod
@@ -71,13 +71,13 @@ ng serve --prod
 ng build
 ~~~   
 
-#### Executar testes de unidade em um determinado projeto
+## Executar testes de unidade em um determinado projeto
 
 ~~~bash
 ng test
 ~~~
 
-#### Criar e atender um aplicativo Angular e, em seguida, executa testes de ponta a ponta
+## Criar e atender um aplicativo Angular e, em seguida, executa testes de ponta a ponta
 
 ~~~bash
 ng e2e

@@ -30,7 +30,7 @@ export class AppComponent { // parte declarativa da classe
 }
 ~~~
 
-#### Criar um componente via Angular CLI
+## Criar um componente via Angular CLI
 
 - Pode deletar a spec.ts e o .css (remover respectivos caminhos do .ts)
 - Os nomes de arquivo terminarão automaticamente com .component.\<extensão\>

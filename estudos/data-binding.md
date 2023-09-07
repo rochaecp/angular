@@ -8,7 +8,7 @@
     - Event Binding
     - Two-way Binding
 
-#### Interpolation
+## Interpolation
 
 - É a forma mais fácil de exibir um dado na tela.
 - É um One-way binding
@@ -17,7 +17,7 @@
 <label>Nome: {{meuDado}}</label>
 ~~~
 
-#### Property Binding
+## Property Binding
 
 - Para levar uma informação do componente para o template (tags).
 - O angular ficará responsável pela propriedade entre colchetes de uma tag HTML.
@@ -32,7 +32,7 @@
     -->
 ~~~
 
-#### Event Binding
+## Event Binding
 
 - Realiza a chamada de um método com base em um evento de um elemento HTML.
 - Para levar a informação do template para o componente.
@@ -44,7 +44,7 @@
 <button (click)='clickContador()'>clique aqui</button>
 ~~~
 
-#### Two-way Binding
+## Two-way Binding
 
 - Exibe e atualiza um dado nas duas direções (template, componente).
 - É a união do property-binding com o event-binding.
