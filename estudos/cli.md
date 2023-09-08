@@ -71,6 +71,12 @@ ng serve --prod
 ng build
 ~~~   
 
+## Compilar para produção
+
+~~~bash
+ng build --prod
+~~~
+
 ## Executar testes de unidade em um determinado projeto
 
 ~~~bash
@@ -81,4 +87,12 @@ ng test
 
 ~~~bash
 ng e2e
+~~~
+
+## Diversos
+
+#### Baixar um código fonte (virá sempre sem o node_modules) e rodar localmente
+
+~~~bash
+npm i
 ~~~

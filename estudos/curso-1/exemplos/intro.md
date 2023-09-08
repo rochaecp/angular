@@ -1,4 +1,4 @@
-# Exemplo de criação de aplicação
+# Introdução - Exemplo
 
 ## Criar a aplicação
 
@@ -127,68 +127,4 @@ providers: [
 <!-- os outros: 
         [routerLink]="['/sobre']"
         [routerLink]="['/contato'] -->
-~~~
-
-## Data Bindings - exemplo
-
-### Criar o componente
-
-~~~bash
-ng g c exemplos/DataBinding
-~~~
-
-### Adicionar o path para o componente data-binding criado
-
-- No arquivo *app.routes.ts*    
-
-~~~javascript
-import { DataBindingComponent } from './exemplos/data-binding/data-binding.component';
-{ path: 'exemplo-data-binding', component: DataBindingComponent}
-~~~
-
-### Adicionar o item de menu Exemplos
-
-- No arquivo *menu.component.html*    
-
-~~~html
-<li class="nav-item">
-    <a class="nav-link" [routerLink]="['/exemplo-data-binding']">Exemplos</a>
-</li>  
-~~~
-
-- No arquivo *data-binding.component.ts*
-
-~~~javascript
-export class DataBindingComponent {
-    public contadorClique: number = 0;
-    public urlImagem: string = "https://aventurasnahistoria.uol.com.br/media/uploads/personagem/chico5.jpg";
-    public nome: string = "";
-
-    adicionarClique() {
-        this.contadorClique++;
-    }
-
-    soltaTecla(evento: any) { // any: argumento pode ser de qualquer tipo
-        this.nome = evento.target.value;
-    }
-}
-~~~
-
-- No arquivo *data-binding.component.html*
-
-~~~html
-<h4>Interpolation</h4>
-<p>O número de cliques é {{contadorClique}}</p>
-
-<h4>Propery Binding</h4>
-<button class="btn btn-info" [disabled]="contadorClique >= 10">Posso ficar Disabled</button><br><br>
-<img [src]="urlImagem" width="400px">
-
-<h4>Event Binding</h4>
-<button class="btn btn-warning" (click)='adicionarClique()'>Incrementar contador</button><br><br>
-    <!-- Buscar correspondencia entre eventos HTML e interpretação deles no Angular -->
-
-<h4>Sem Two-way Binding</h4>
-<input type="text" (keyup)='soltaTecla($event)' placeholder="Digite o seu nome"><br>
-<label>Ola: {{ nome }}</label>
 ~~~

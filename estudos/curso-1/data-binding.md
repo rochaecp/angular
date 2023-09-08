@@ -1,7 +1,8 @@
 # Data Binding
 
 - Forma de exibir dados que venham de um componente ou de um backend que se consumiu via REST.
-- One-way binding: valor vem do componente até a property mas não faz o caminho inverso.
+- One-way binding: 
+    - Valor vem do componente até a property mas não faz o caminho inverso.
 - Tipos:
     - Interpolation 
     - Property Binding

@@ -189,3 +189,39 @@ npm install -g @angular/cli
 - Decorator
 - Diz o que a classe é.
 - A classe pode ser um componente, uma diretiva, um módulo, um serviço injetável, um pipe
+
+## Atualizar a versão do angular
+
+#### Instalar o pacote npm-check-updates 
+
+~~~bash
+npm install -g npm-check-updates # -g para global
+~~~
+
+#### Checar se há atualizações
+
+~~~bash
+ncu # npm check updates
+~~~
+
+- Cor Verde: atualizações de patch
+- Cor Azul: atualizações minor
+- Cor Vermelha: atualizações major, pode gerar break change
+
+#### Atualizar tudo
+
+~~~bash
+ncu -u # upgrade
+~~~
+
+## Realizar o debug da aplicação
+
+- Extensão para VsCode: Debugger for Chrome
+
+## Compilação e entrega da aplicação
+
+- Após a compilação os arquivos para subir para o servidor estarão na pasta dist. que estará ao lado de src
+
+#### Compilador Angular Ivy
+
+- A partir da versão 8.1 do Angular
