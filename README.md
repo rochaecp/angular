@@ -1,7 +1,7 @@
 # Angular
 
 - Úteis
-    - [CLI](estudos/cli.md)
+    - [CLI](estudos/uteis/cli.md)
 - Curso 1 
     - [Conceitos Gerais](estudos/curso-1/conceitos-gerais.md)
     - [Componentes](estudos/curso-1/componentes.md)
